@@ -5,10 +5,308 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="project.css">
+  <link rel="stylesheet" href="adaptive1.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
     integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <title>ZLATMAX</title>
 </head>
+
+<style>
+  @media (max-width: 1333px) {
+    .header_input {
+      display: none;
+    }
+  }
+
+  @media (max-width: 894px) {
+    .location1 {
+      display: none;
+    }
+  }
+
+
+  @media (max-width: 795px) {
+    .numb1 {
+      display: none;
+    }
+  }
+
+
+  @media (max-width: 627px) {
+    .order1 {
+      display: none;
+    }
+  }
+
+  @media (max-width: 598px) {
+    .navbar-brand-second {
+      font-size: small !important;
+    }
+  }
+
+  @media (max-width: 507px) {
+    .navbar-brand-second {
+      display: none;
+    }
+
+    header .last_header {
+      height: 1000px;
+    }
+  }
+
+  @media (max-width: 1289px) {
+    header .last_header {
+      background-image: none;
+    }
+  }
+
+  @media (max-width: 320px) {
+    header .last_header {
+      background-image: url("imj/Group\ 146.png");
+    }
+
+    header {
+      width: 420px;
+    }
+
+    .header-bottom {
+      display: none;
+    }
+  }
+
+  @media (max-width: 569px) {
+    header {
+      width: 595px;
+
+    }
+  }
+
+
+  .d-flex.flex-column.align-items-center {
+    width: 25%;
+
+  }
+
+
+  @media (max-width: 1023px) {
+    .d-flex.flex-column.align-items-center {
+      width: 40%;
+      margin-top: 50px;
+    }
+
+    header .last_header {
+      height: 1000px;
+    }
+  }
+
+  @media (max-width: 660px) {
+    .d-flex.flex-column.align-items-center {
+      width: 40%;
+      margin-top: 50px;
+      margin-right: 30px;
+    }
+
+    header .last_header {
+      height: 1150px;
+    }
+  }
+
+  @media (max-width: 310px) {
+    .d-flex.flex-column.align-items-center {
+      width: 70%;
+
+    }
+
+    header .last_header {
+      height: 1450px;
+    }
+  }
+
+  @media (max-width: 1405px) {
+    .first_catalog {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .card_ctalog {
+      margin-top: 5%;
+    }
+  }
+
+  @media (max-width: 575px) {
+
+    .card-knife,
+    .first_catalog {
+      padding-left: 3em;
+    }
+
+  }
+
+  @media (max-width: 447px) {
+
+    .card-knife,
+    .first_catalog {
+      padding-left: 3em;
+    }
+
+  }
+
+  @media (max-width: 436px) {
+
+    .card-knife,
+    .first_catalog {
+      padding-left: 8em;
+    }
+
+  }
+
+  @media (max-width: 500px) {
+
+    .card-knife,
+    .first_catalog {
+      padding-left: 3em;
+    }
+  }
+
+
+  @media (max-width: 530px) {
+
+    .card-knife,
+    .first_catalog {
+      padding-left: 3em;
+    }
+  }
+
+  @media (max-width: 450px) {
+
+    .card-knife,
+    .first_catalog {
+      padding-left: 3em;
+    }
+
+  }
+
+  @media (max-width: 400px) {
+
+    .card-knife,
+    .first_catalog {
+      padding-left: 5em;
+    }
+
+  }
+
+  @media (max-width: 375px) {
+
+    .card-knife,
+    .first_catalog {
+      padding-left: 3em;
+    }
+
+  }
+
+  @media (max-width: 372px) {
+
+    .card-knife,
+    .first_catalog {
+      padding-left: 5em;
+    }
+  }
+
+  @media (max-width: 127px) {
+
+    .card-knife,
+    .first_catalog {
+      padding-left: 3em;
+    }
+  }
+
+  @media (max-width: 1414px) {
+    .mt-5.row {
+      margin-top: 5%;
+    }
+
+    .card {
+      margin: 20px 10px 20px;
+
+    }
+  }
+
+  @media (max-width: 1060px) {
+    .mt-5.row {
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+
+    .card {
+      margin: 20px 10px 20px;
+
+    }
+  }
+
+  @media (max-width: 910px) {
+    .card-knife {
+      padding-left: 15%;
+    }
+  }
+
+  @media (max-width: 920px) {
+    .hiti {
+      padding-left: 3em;
+    }
+
+    .hiti2 {
+      display: none;
+    }
+  }
+
+  @media (max-width: 757px) {
+    .hiti {
+      margin-left: 1em;
+    }
+
+    .card-knife {
+      padding-left: 3em;
+    }
+  }
+
+  @media (max-width: 380px) {
+    .card-knife {
+      margin-left: 50px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .hiti {
+      margin-left: 3em;
+    }
+
+    .card-knife {
+      padding-left: 3em;
+    }
+  }
+
+  @media (max-width: 1523px) {
+    .new-items {
+      display: none !important;
+    }
+
+  }
+
+  @media (max-width: 568px) {
+   footer{
+    width: 600px;
+   }
+  }
+
+  @media (max-width: 972px) {
+    .footer-block1{
+      
+      align-items: center;
+    }
+
+  }
+</style>
 
 <body>
   <!DOCTYPE html>
@@ -25,18 +323,28 @@
 
   <body>
     <header>
-      <nav class="navbar-light d-flex">
-        <div class="list">
-          <a class="navbar-brand ml-4">О нас</a>
-          <a class="navbar-brand text-white ml-4" style="font-size: 16px;">Оплата и доставка</a>
-          <a class="navbar-brand text-white ml-4" style="font-size: 16px;">Новости</a>
-          <a class="navbar-brand text-white ml-4" style="font-size: 16px;">Контакты</a>
-        </div>
-        <div class="personal_area d-none d-lg-block">
-          <img src="Group.png">
-          <a class="navbar-brand text-white ml-2" style="font-size: 16px;">Личный кабинет</a>
+      <nav class="navbar navbar-expand-lg" style="background-color: #141414;">
+        <button class="burger-button navbar-toggler" type="button" data-toggle="collapse"
+          data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <a href="" class="navbar-brand ml-4">О нас</a>
+            <a href="" class="navbar-brand ml-4 mt-1" style="font-size: 16px;">Оплата и доставка</a>
+            <a href="" class="navbar-brand ml-4 mt-1" style="font-size: 16px;">Новости</a>
+            <a href="" class="navbar-brand ml-4 mt-1" style="font-size: 16px;">Контакты</a>
+            <a href="" class="navbar-brand ml-4 d-lg-none" style="font-size: 16px;">Личный кабинет</a>
+          </ul>
+          <div class="personal_area">
+            <img class="navbar-brand" style="margin-right: -5%;" src="Group.png">
+            <a href="" class="navbar-brand ml-4 " style="font-size: 16px;">Личный кабинет</a>
+          </div>
         </div>
       </nav>
+
       <div class="lower_header d-flex">
         <div class="icon_zara d-flex" style="margin-left: 9.5%;">
           <img src="logo.png">
@@ -46,107 +354,105 @@
             </form>
           </div>
         </div>
-        <div class="d-flex" style="margin-right: 10%; align-items: center;">
+        <div class="d-flex locaction_and_inform" style="margin-right: 10%; align-items: center;">
           <div class="d-flex">
             <div>
-              <img src="Иконка_Локации.png">
+              <img class="location1" src="Иконка_Локации.png">
             </div>
-            <div class="ml-2"><b>Киев</b></div>
+            <div class="ml-2 location1"><b>Киев</b></div>
           </div>
           <div class="ml-5">
-            <div><b>096-777-42-67</b></div>
-            <div style="color: #E8AA31;"><b>Заказать звонок</b></div>
+            <div class="numb1"><b>096-777-42-67</b></div>
+            <div class="numb1" style="color: #E8AA31;"><b>Заказать звонок</b></div>
           </div>
           <div class="d-flex" style="align-items: center;">
             <div class="ml-5">
-              <img src="Vector.png">
+              <img class="order1" src="Vector.png">
             </div>
             <div class="ml-4">
-              <img src="Group 2.png">
+              <img class="order1" src="Group 2.png">
             </div>
-            <div class="ml-3">
+            <div class="ml-3 order1">
               <div><b>0 грн.</b></div>
-              <div style="color: #E8AA31;">Оформить заказ</div>
+              <div class="order1" style="color: #E8AA31;">Оформить заказ</div>
             </div>
           </div>
         </div>
       </div>
+
       <div>
         <div class="navbar-brand-second" style="background-color: #141414; padding-top: 1%; padding-bottom: 1%;">
           <div class="list_second d-flex">
-            <a class="navbar-brand-second text-white" style="font-size: 16px;">Каталог ножей</a>
-            <a class="navbar-brand-second text-white" style="font-size: 16px;">Клинковое оружие</a>
-            <a class="navbar-brand-second text-white " style="font-size: 16px;">Фонари ARMYTEK </a>
-            <a class="navbar-brand-second text-white " style="font-size: 16px;">Сопуствующие товары</a>
+            <a class="navbar-brand-second text-white">Каталог ножей</a>
+            <a class="navbar-brand-second text-white">Клинковое оружие</a>
+            <a class="navbar-brand-second text-white">Фонари ARMYTEK </a>
+            <a class="navbar-brand-second text-white">Сопуствующие товары</a>
           </div>
         </div>
       </div>
-      <div class="last_header d-flex">
-        <div class="d-flex flex-column">
-          <div class="d-flex">
+      <div class="last_header column">
+        <div class="column pt-3 pl-5">
+          <div>
+            <div style="font-size: 36px; color: white;"><b>Интернет магазин сертифицированных</b></div>
+            <div style="font-size: 36px; color: white;">златоустовских ножей</div>
+            <div style="font-size: 20px; color: white;" class="mt-3">
+              <b>Добро пожаловать на официальный сайт «ЗЛАТМАКС»! В нашем магазине</b><br>
+              <span style="opacity: 0.9;">представлен наиболее широкий выбор Златоустовских ножей от
+                Златоустовских</span> <br>
+              <span style="opacity: 0.7;">Оружейных Фабрик и компаний, мы являемся официальными поставщиками.</span>
+            </div>
+            <div class="mt-5">
+              <button type="button" class="btn btn-warning text-white">Подробнее</button>
+            </div>
+            <div class="mt-4" style="margin-left: -0.5%;">
+              <img src="Group 3.png" width="140em">
+            </div>
+          </div>
+        </div>
+        <div class="row ml-5 mr-5" style="justify-content: space-around; margin-top: 11%; ">
+          <div class="d-flex flex-column align-items-center">
             <div>
-              <div style="font-size: 36px; color: white;"><b>Интернет магазин сертифицированных</b></div>
-              <div style="font-size: 36px; color: white;">златоустовских ножей</div>
-              <div style="font-size: 20px; color: white;" class="mt-3">
-                <b>Добро пожаловать на официальный сайт «ЗЛАТМАКС»! В нашем магазине</b><br>
-                <span style="opacity: 0.9;">представлен наиболее широкий выбор Златоустовских ножей от
-                  Златоустовских</span> <br>
-                <span style="opacity: 0.7;">Оружейных Фабрик и компаний, мы являемся официальными поставщиками.</span>
-              </div>
-              <div class="mt-5">
-                <button type="button" class="btn btn-warning text-white">Подробнее</button>
-              </div>
-              <div class="mt-4" style="margin-left: -0.5%;">
-                <img src="Group 3.png" width="140em">
-              </div>
+              <img src="Group 73.png">
             </div>
-            <div class="d-flex ml-5">
-              <img src="artage-io-thumb-3eb7dc9f044a998d2aab1b457afe81cb 1 (1).png" height="90%">
+            <div style="font-size: 20px; color: white; text-align: center;">
+              Гарантия 100% возврата <br>
+              денежных средств
             </div>
           </div>
-          <div class="d-flex" style="justify-content: space-between;">
-            <div class="d-flex flex-column align-items-center">
-              <div>
-                <img src="Group 73.png">
-              </div>
-              <div style="font-size: 20px; color: white; text-align: center;">
-                Гарантия 100% возврата <br> денежных средств
-              </div>
+          <div class="d-flex flex-column align-items-center">
+            <div>
+              <img src="Group 65.png">
             </div>
-            <div class="d-flex flex-column align-items-center">
-              <div>
-                <img src="Group 65.png">
-              </div>
-              <div style="font-size: 20px; color: white; text-align: center;">
-                Доставка по Украине, <br> Польше и Чехии
-              </div>
+            <div style="font-size: 20px; color: white; text-align: center;">
+              Доставка по Украине, <br> Польше и Чехии
             </div>
-            <div class="d-flex flex-column align-items-center">
-              <div>
-                <img src="Group 66.png">
-              </div>
-              <div style="font-size: 20px; color: white; text-align: center;">
-                Возможность оформление <br> заказа без регистрации.
-              </div>
+          </div>
+          <div class="d-flex flex-column align-items-center">
+            <div>
+              <img src="Group 66.png">
             </div>
-            <div class="d-flex flex-column align-items-center">
-              <div>
-                <img src="Group 71.png">
-              </div>
-              <div style="font-size: 20px; color: white; text-align: center;">
-                Скидки постоянным <br> покупателям.
-              </div>
+            <div style="font-size: 20px; color: white; text-align: center;">
+              Возможность оформление <br> заказа без регистрации.
+            </div>
+          </div>
+          <div class="d-flex flex-column align-items-center">
+            <div>
+              <img src="Group 71.png">
+            </div>
+            <div style="font-size: 20px; color: white; text-align: center;">
+              Скидки постоянным <br> покупателям.
             </div>
           </div>
         </div>
       </div>
-      </div>
+
     </header>
     <div>
-      <div class="column mt-5" style="margin-left: 5%; margin-right: 5%;">
-        <div class=" row" style="justify-content: space-between;">
-          <div class="d-flex card_ctalog" style="background-image: url('knife-1493593_960_720\ 1.png'); background-size: 50%; background-position: 200px 15px;  background-repeat: no-repeat;" >
-            <div class=" d-flex" style="flex-direction: row;">
+      <div class="column mt-5" style="padding-left: 5%; padding-right: 5%;">
+        <div class="first_catalog row" style="justify-content: space-between;">
+          <div class="d-flex card_ctalog"
+            style="background-image: url('knife-1493593_960_720\ 1.png'); background-size: 50%; background-position: 200px 15px;  background-repeat: no-repeat;">
+            <div class="cards d-flex" style="flex-direction: row;">
               <div class="card-body">
                 <h3 class="card-title">Каталог ножей</h3>
                 <hr style="background-color: #E8AA31; width: 68px; margin-left: 0; height: 2px;">
@@ -157,8 +463,9 @@
                 </ul>
               </div>
             </div>
-          </div>     
-          <div class="d-flex card_ctalog" style="background-image: url('dagger-png-transparent-picture\ 1\ \(1\).png'); background-size: 50%; background-position: 200px 15px;  background-repeat: no-repeat;" >
+          </div>
+          <div class="d-flex card_ctalog"
+            style="background-image: url('dagger-png-transparent-picture\ 1\ \(1\).png'); background-size: 50%; background-position: 200px 15px;  background-repeat: no-repeat;">
             <div class=" d-flex" style="flex-direction: row;">
               <div class="card-body">
                 <h3 class="card-title">Среднеклинковое оружие</h3>
@@ -170,8 +477,9 @@
                 </ul>
               </div>
             </div>
-          </div>        
-          <div class="d-flex card_ctalog" style="background-image: url('holor048\ 1.png'); background-size: 55%; background-position: 200px 45px;  background-repeat: no-repeat;" >
+          </div>
+          <div class="d-flex card_ctalog"
+            style="background-image: url('holor048\ 1.png'); background-size: 55%; background-position: 200px 45px;  background-repeat: no-repeat;">
             <div class=" d-flex" style="flex-direction: row;">
               <div class="card-body">
                 <h3 class="card-title">Длинноклинковое оружие</h3>
@@ -183,10 +491,11 @@
                 </ul>
               </div>
             </div>
-          </div> 
+          </div>
         </div>
-        <div class="mt-3 row" style="justify-content: space-between;">
-          <div class="d-flex card_ctalog" style="background-image: url('Mask\ Group\ \(1\).png'); background-size: 85%; background-position: 74px 15px;  background-repeat: no-repeat;" >
+        <div class="mt-3 row first_catalog" style="justify-content: space-between;">
+          <div class="d-flex card_ctalog sv-2"
+            style="background-image: url('Mask\ Group\ \(1\).png'); background-size: 85%; background-position: 74px 15px;  background-repeat: no-repeat;">
             <div class=" d-flex" style="flex-direction: row;">
               <div class="card-body">
                 <h3 class="card-title">Сувенирные изделия</h3>
@@ -198,8 +507,9 @@
                 </ul>
               </div>
             </div>
-          </div> 
-          <div class="d-flex card_ctalog" style="background-image: url('kupit\ chehol\ 1.png'); background-size: 47%; background-position: 230px 35px;  background-repeat: no-repeat;" >
+          </div>
+          <div class="d-flex card_ctalog"
+            style="background-image: url('kupit\ chehol\ 1.png'); background-size: 47%; background-position: 230px 35px;  background-repeat: no-repeat;">
             <div class=" d-flex" style="flex-direction: row;">
               <div class="card-body">
                 <h3 class="card-title">Сопутствующие товары </h3>
@@ -211,8 +521,9 @@
                 </ul>
               </div>
             </div>
-          </div>       
-          <div class="d-flex card_ctalog" style="background-image: url('62669997_images_8906679780 1.png'); background-size: 47%; background-position: 230px 35px;  background-repeat: no-repeat;" >
+          </div>
+          <div class="d-flex card_ctalog"
+            style="background-image: url('62669997_images_8906679780 1.png'); background-size: 47%; background-position: 230px 35px;  background-repeat: no-repeat;">
             <div class=" d-flex" style="flex-direction: row;">
               <div class="card-body">
                 <h3 class="card-title">Ножевая мастерская </h3>
@@ -224,46 +535,1293 @@
                 </ul>
               </div>
             </div>
-          </div>   
+          </div>
         </div>
-      <div class="mt-5 row" style="justify-content: space-between;
-      align-items: center;">
-        <div style="font-size: 30px; font-weight: 700;">Хиты продаж</div>
-        <div> 
-          <a href="" style="color: black;">Перейти в каталог</a>
-          <img class="ml-3" src="Vector2.png">
-        </div>
-      </div>
 
-      <div class="mt-5" style="margin-left: -1%;">
-        <div class="card" style="width: 20rem;">
-          <img src="Mask Group (2).png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Нож Лиса</h5>
-            <div class="row" style="justify-content: space-between;">
-              <p class="card-text ml-3" style="font-size: 16px; color: #ABABAB;">95х18</p>
-              <p class="card-text mr-3" style="font-size: 16px; color: #ABABAB;">Орех, Алюминий</p>
-            </div>
-            <div class="row" style="justify-content: space-between; align-items: center;">
-              <div class="ml-3">
-                <img src="Star 1.png" width="22px">
-                <img src="Star 1.png" width="22px">
-                <img src="Star 1.png" width="22px">
-                <img src="Star 1.png" width="22px">
-                <img src="Star 1.png" width="22px">
+        <div class="row mt-5" style="text-align: center; justify-content: space-between; align-items: center;">
+          <div class="hiti" style="font-size: 30px; font-weight: 700;">Хиты продаж</div>
+          <div class="hiti2">
+            <a href="" style="color: black;">Перейти в каталог</a>
+            <img class="ml-3" src="Vector2.png">
+          </div>
+        </div>
+        ...
+        <div class="mt-3 row" style="justify-content: space-between; align-items: center;">
+          <div class="mt-5 row card-knife" style=" justify-content: space-between;">
+            <div class="card " style="width: 20rem;">
+              <img width="374px" height="295px" src="01s (7).webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Нож Селигер</h5>
+                <div class="ml-3 mr-3">
+                  <div class="row" style="justify-content: space-between;">
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">100Х13М</p>
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">береза, Латунь</p>
+                  </div>
+                  <div class="row" style="justify-content: space-between; align-items: center;">
+                    <div>
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                    </div>
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">41 отзыв</p>
+                  </div>
+                  <div class="mt-4 mb-4">
+                    <hr width="270px" class="mt-4 mb-4"
+                      style="border: 1px solid #000; margin-left: -10px; margin-right: 40px;">
+                  </div>
+                  <div class="row mt-3" style="justify-content: space-between;">
+                    <div style="font-size: 20px; font-weight: 600;">10 650 грн.</div>
+                    <div>
+                      <img class="mr-2 img_card" width="20px" height="20px" src="Group2.png">
+                      <img class="img_card" width="20px" height="20px" src="Vector3.png">
+                    </div>
+                  </div>
+                  <div class="mt-4 w-100">
+                    <button type="button" class="card_buy_button w-100 btn btn-warning text-white">В корзину
+                      <img src="Иконка_корзины.png" alt="Иконка корзины">
+                    </button>
+                  </div>
+                </div>
               </div>
-              <p class="card-text mr-3" style="font-size: 16px; color: #ABABAB;">12 отзывов</p>
             </div>
-            <div class="row mt-3 ml-2 mr-2" style="justify-content: space-between;">
-              <div style="font-size: 20px; font-weight: 600;">2 719 грн.</div>
-              <img style="margin-right: -39%;" src="Group2.png">
-              <img src="Vector3.png">
+            <div class="card" style="width: 20rem;">
+              <img width="374px" height="295px" src=" 01s (2).webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Нож Патриот</h5>
+                <div class="ml-3 mr-3">
+                  <div class="row" style="justify-content: space-between;">
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">100Х13М</p>
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">Металлический</p>
+                  </div>
+                  <div class="row" style="justify-content: space-between; align-items: center;">
+                    <div>
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                    </div>
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">1 отзыв</p>
+                  </div>
+                  <div class="mt-4 mb-4">
+                    <hr width="270px" class="mt-4 mb-4"
+                      style="border: 1px solid #000; margin-left: -10px; margin-right: 40px;">
+                  </div>
+                  <div class="row mt-3" style="justify-content: space-between;">
+                    <div style="font-size: 20px; font-weight: 600;">5 500 грн.</div>
+                    <div>
+                      <img class="mr-2 img_card" width="20px" height="20px" src="Group2.png">
+                      <img class="img_card" width="20px" height="20px" src="Vector3.png">
+                    </div>
+                  </div>
+                  <div class="mt-4 w-100">
+                    <button type="button" class="card_buy_button w-100 btn btn-warning text-white">В корзину
+                      <img src="Иконка_корзины.png" alt="Иконка корзины">
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card" style="width: 20rem;">
+              <img width="374px" height="295px" src="01s (3).webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Складной нож Ахиллес</h5>
+                <div class="ml-3 mr-3">
+                  <div class="row" style="justify-content: space-between;">
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">40Х10С2М</p>
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">Накладки орех/p>
+                  </div>
+                  <div class="row" style="justify-content: space-between; align-items: center;">
+                    <div>
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                    </div>
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">42 отзывов</p>
+                  </div>
+                  <div class="mt-4 mb-4">
+                    <hr width="270px" class="mt-4 mb-4"
+                      style="border: 1px solid #000; margin-left: -10px; margin-right: 40px;">
+                  </div>
+                  <div class="row mt-3" style="justify-content: space-between;">
+                    <div style="font-size: 20px; font-weight: 600;">2 719 грн.</div>
+                    <div>
+                      <img class="mr-2 img_card" width="20px" height="20px" src="Group2.png">
+                      <img class="img_card" width="20px" height="20px" src="Vector3.png">
+                    </div>
+                  </div>
+                  <div class="mt-4 w-100">
+                    <button type="button" class="card_buy_button w-100 btn btn-warning text-white">В корзину
+                      <img src="Иконка_корзины.png" alt="Иконка корзины">
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card" style="width: 20rem;">
+              <img width="374px" height="295px" src="01s (4).webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Нож Лиса</h5>
+                <div class="ml-3 mr-3">
+                  <div class="row" style="justify-content: space-between;">
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">95х18</p>
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">Орех, Алюминий</p>
+                  </div>
+                  <div class="row" style="justify-content: space-between; align-items: center;">
+                    <div>
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                    </div>
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">12 отзывов</p>
+                  </div>
+                  <div class="mt-4 mb-4">
+                    <hr width="270px" class="mt-4 mb-4"
+                      style="border: 1px solid #000; margin-left: -10px; margin-right: 40px;">
+                  </div>
+                  <div class="row mt-3" style="justify-content: space-between;">
+                    <div style="font-size: 20px; font-weight: 600;">2 719 грн.</div>
+                    <div>
+                      <img class="mr-2 img_card" width="20px" height="20px" src="Group2.png">
+                      <img class="img_card" width="20px" height="20px" src="Vector3.png">
+                    </div>
+                  </div>
+                  <div class="mt-4 w-100">
+                    <button type="button" class="card_buy_button w-100 btn btn-warning text-white">В корзину
+                      <img src="Иконка_корзины.png" alt="Иконка корзины">
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-100 mt-5" style="text-align: center;">
+              <img src="Group 22.png">
             </div>
           </div>
         </div>
       </div>
+      <div class="new-items row"> <!---->
+        <div class="column">
+          <div class="items-text1">Новинки</div>
+          <div class="items-text2 mt-4">Добро пожаловать на <br>
+            официальный сайт «ЗЛАТМАКС»! <br>
+            В нашем магазине представлен <br>
+            наиболее широкий выбор <br>
+            Златоустовских ножей от <br>
+            Златоустовских Оружейных <br>
+            Фабрик и компаний, мы <br>
+            являемся официальными <br>
+            поставщиками.</div>
+          <div class="mt-5 more_new">
+            <a href="" style="color: #E8AA31; font-size: 20px;">Больше новинок</a>
+            <img class="ml-2" src="Vector2.png">
+          </div>
+        </div>
+        <div>
+          <div class=" row mb-5" style=" justify-content: space-between;">
+            <div class="card" style="width: 20rem;">
+              <img width="374px" height="295px" src="01s (7).webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Нож Селигер</h5>
+                <div class="ml-3 mr-3">
+                  <div class="row" style="justify-content: space-between;">
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">100Х13М</p>
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">береза, Латунь</p>
+                  </div>
+                  <div class="row" style="justify-content: space-between; align-items: center;">
+                    <div>
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                    </div>
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">41 отзыв</p>
+                  </div>
+                  <div class="mt-4 mb-4">
+                    <hr width="270px" class="mt-4 mb-4"
+                      style="border: 1px solid #000; margin-left: -10px; margin-right: 40px;">
+                  </div>
+                  <div class="row mt-3" style="justify-content: space-between;">
+                    <div style="font-size: 20px; font-weight: 600;">10 650 грн.</div>
+                    <div>
+                      <img class="mr-2 img_card" width="20px" height="20px" src="Group2.png">
+                      <img class="img_card" width="20px" height="20px" src="Vector3.png">
+                    </div>
+                  </div>
+                  <div class="mt-4 w-100">
+                    <button type="button" class="card_buy_button w-100 btn btn-warning text-white">В корзину
+                      <img src="Иконка_корзины.png" alt="Иконка корзины">
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card ml-3" style="width: 20rem;">
+              <img width="374px" height="295px" src="01s (3).webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Складной нож Ахиллес</h5>
+                <div class="ml-3 mr-3">
+                  <div class="row" style="justify-content: space-between;">
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">40Х10С2М</p>
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">Накладки орех/p>
+                  </div>
+                  <div class="row" style="justify-content: space-between; align-items: center;">
+                    <div>
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                    </div>
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">42 отзывов</p>
+                  </div>
+                  <div class="mt-4 mb-4">
+                    <hr width="270px" class="mt-4 mb-4"
+                      style="border: 1px solid #000; margin-left: -10px; margin-right: 40px;">
+                  </div>
+                  <div class="row mt-3" style="justify-content: space-between;">
+                    <div style="font-size: 20px; font-weight: 600;">2 719 грн.</div>
+                    <div>
+                      <img class="mr-2 img_card" width="20px" height="20px" src="Group2.png">
+                      <img class="img_card" width="20px" height="20px" src="Vector3.png">
+                    </div>
+                  </div>
+                  <div class="mt-4 w-100">
+                    <button type="button" class="card_buy_button w-100 btn btn-warning text-white">В корзину
+                      <img src="Иконка_корзины.png" alt="Иконка корзины">
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card ml-3" style="width: 20rem;">
+              <img width="374px" height="295px" src="01s (4).webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Нож Лиса</h5>
+                <div class="ml-3 mr-3">
+                  <div class="row" style="justify-content: space-between;">
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">95х18</p>
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">Орех, Алюминий</p>
+                  </div>
+                  <div class="row" style="justify-content: space-between; align-items: center;">
+                    <div>
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                    </div>
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">12 отзывов</p>
+                  </div>
+                  <div class="mt-4 mb-4">
+                    <hr width="270px" class="mt-4 mb-4"
+                      style="border: 1px solid #000; margin-left: -10px; margin-right: 40px;">
+                  </div>
+                  <div class="row mt-3" style="justify-content: space-between;">
+                    <div style="font-size: 20px; font-weight: 600;">2 719 грн.</div>
+                    <div>
+                      <img class="mr-2 img_card" width="20px" height="20px" src="Group2.png">
+                      <img class="img_card" width="20px" height="20px" src="Vector3.png">
+                    </div>
+                  </div>
+                  <div class="mt-4 w-100">
+                    <button type="button" class="card_buy_button w-100 btn btn-warning text-white">В корзину
+                      <img src="Иконка_корзины.png" alt="Иконка корзины">
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+    <!---->
+    <div class="column mt-5" style="margin-left: 5%; margin-right: 5%;">
+      <div class="row mt-5" style="text-align: center; justify-content: space-between; align-items: center;">
+        <div class="hiti" style="font-size: 30px; font-weight: 700;">Акции</div>
+        <div class="hiti2">
+          <a href="" style="color: black;">Все акции</a>
+          <img class="ml-3" src="Vector2.png">
+        </div>
+      </div>
+
+          <div class="mt-3 row" style="justify-content: space-between; align-items: center;">
+          <div class="mt-5 row card-knife" style=" justify-content: space-between;">
+            <div class="card " style="width: 20rem;">
+              <img width="374px" height="295px" src="01s (7).webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Нож Селигер</h5>
+                <div class="ml-3 mr-3">
+                  <div class="row" style="justify-content: space-between;">
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">100Х13М</p>
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">береза, Латунь</p>
+                  </div>
+                  <div class="row" style="justify-content: space-between; align-items: center;">
+                    <div>
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                    </div>
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">41 отзыв</p>
+                  </div>
+                  <div class="mt-4 mb-4">
+                    <hr width="270px" class="mt-4 mb-4"
+                      style="border: 1px solid #000; margin-left: -10px; margin-right: 40px;">
+                  </div>
+                  <div class="row mt-3" style="justify-content: space-between;">
+                    <div style="font-size: 20px; font-weight: 600;">10 650 грн.</div>
+                    <div>
+                      <img class="mr-2 img_card" width="20px" height="20px" src="Group2.png">
+                      <img class="img_card" width="20px" height="20px" src="Vector3.png">
+                    </div>
+                  </div>
+                  <div class="mt-4 w-100">
+                    <button type="button" class="card_buy_button w-100 btn btn-warning text-white">В корзину
+                      <img src="Иконка_корзины.png" alt="Иконка корзины">
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card" style="width: 20rem;">
+              <img width="374px" height="295px" src=" 01s (2).webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Нож Патриот</h5>
+                <div class="ml-3 mr-3">
+                  <div class="row" style="justify-content: space-between;">
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">100Х13М</p>
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">Металлический</p>
+                  </div>
+                  <div class="row" style="justify-content: space-between; align-items: center;">
+                    <div>
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                    </div>
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">1 отзыв</p>
+                  </div>
+                  <div class="mt-4 mb-4">
+                    <hr width="270px" class="mt-4 mb-4"
+                      style="border: 1px solid #000; margin-left: -10px; margin-right: 40px;">
+                  </div>
+                  <div class="row mt-3" style="justify-content: space-between;">
+                    <div style="font-size: 20px; font-weight: 600;">5 500 грн.</div>
+                    <div>
+                      <img class="mr-2 img_card" width="20px" height="20px" src="Group2.png">
+                      <img class="img_card" width="20px" height="20px" src="Vector3.png">
+                    </div>
+                  </div>
+                  <div class="mt-4 w-100">
+                    <button type="button" class="card_buy_button w-100 btn btn-warning text-white">В корзину
+                      <img src="Иконка_корзины.png" alt="Иконка корзины">
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card" style="width: 20rem;">
+              <img width="374px" height="295px" src="01s (3).webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Складной нож Ахиллес</h5>
+                <div class="ml-3 mr-3">
+                  <div class="row" style="justify-content: space-between;">
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">40Х10С2М</p>
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">Накладки орех/p>
+                  </div>
+                  <div class="row" style="justify-content: space-between; align-items: center;">
+                    <div>
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                    </div>
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">42 отзывов</p>
+                  </div>
+                  <div class="mt-4 mb-4">
+                    <hr width="270px" class="mt-4 mb-4"
+                      style="border: 1px solid #000; margin-left: -10px; margin-right: 40px;">
+                  </div>
+                  <div class="row mt-3" style="justify-content: space-between;">
+                    <div style="font-size: 20px; font-weight: 600;">2 719 грн.</div>
+                    <div>
+                      <img class="mr-2 img_card" width="20px" height="20px" src="Group2.png">
+                      <img class="img_card" width="20px" height="20px" src="Vector3.png">
+                    </div>
+                  </div>
+                  <div class="mt-4 w-100">
+                    <button type="button" class="card_buy_button w-100 btn btn-warning text-white">В корзину
+                      <img src="Иконка_корзины.png" alt="Иконка корзины">
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card" style="width: 20rem;">
+              <img width="374px" height="295px" src="01s (4).webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Нож Лиса</h5>
+                <div class="ml-3 mr-3">
+                  <div class="row" style="justify-content: space-between;">
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">95х18</p>
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">Орех, Алюминий</p>
+                  </div>
+                  <div class="row" style="justify-content: space-between; align-items: center;">
+                    <div>
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                    </div>
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">12 отзывов</p>
+                  </div>
+                  <div class="mt-4 mb-4">
+                    <hr width="270px" class="mt-4 mb-4"
+                      style="border: 1px solid #000; margin-left: -10px; margin-right: 40px;">
+                  </div>
+                  <div class="row mt-3" style="justify-content: space-between;">
+                    <div style="font-size: 20px; font-weight: 600;">2 719 грн.</div>
+                    <div>
+                      <img class="mr-2 img_card" width="20px" height="20px" src="Group2.png">
+                      <img class="img_card" width="20px" height="20px" src="Vector3.png">
+                    </div>
+                  </div>
+                  <div class="mt-4 w-100">
+                    <button type="button" class="card_buy_button w-100 btn btn-warning text-white">В корзину
+                      <img src="Иконка_корзины.png" alt="Иконка корзины">
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-100 mt-5" style="text-align: center;">
+              <img src="Group 22.png">
+            </div>
+          </div>
+        </div>
+      ...
+      <div class="mt-3 row" style="justify-content: space-between; align-items: center;">
+        <div class="mt-5 row card-knife" style=" justify-content: space-between;">
+          <div class="card " style="width: 20rem;">
+            <img width="374px" height="295px" src="01s (7).webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Нож Селигер</h5>
+              <div class="ml-3 mr-3">
+                <div class="row" style="justify-content: space-between;">
+                  <p class="card-text" style="font-size: 16px; color: #ABABAB;">100Х13М</p>
+                  <p class="card-text" style="font-size: 16px; color: #ABABAB;">береза, Латунь</p>
+                </div>
+                <div class="row" style="justify-content: space-between; align-items: center;">
+                  <div>
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                  </div>
+                  <p class="card-text" style="font-size: 16px; color: #ABABAB;">41 отзыв</p>
+                </div>
+                <div class="mt-4 mb-4">
+                  <hr width="270px" class="mt-4 mb-4"
+                    style="border: 1px solid #000; margin-left: -10px; margin-right: 40px;">
+                </div>
+                <div class="row mt-3" style="justify-content: space-between;">
+                  <div style="font-size: 20px; font-weight: 600;">10 650 грн.</div>
+                  <div>
+                    <img class="mr-2 img_card" width="20px" height="20px" src="Group2.png">
+                    <img class="img_card" width="20px" height="20px" src="Vector3.png">
+                  </div>
+                </div>
+                <div class="mt-4 w-100">
+                  <button type="button" class="card_buy_button w-100 btn btn-warning text-white">В корзину
+                    <img src="Иконка_корзины.png" alt="Иконка корзины">
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card" style="width: 20rem;">
+            <img width="374px" height="295px" src=" 01s (2).webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Нож Патриот</h5>
+              <div class="ml-3 mr-3">
+                <div class="row" style="justify-content: space-between;">
+                  <p class="card-text" style="font-size: 16px; color: #ABABAB;">100Х13М</p>
+                  <p class="card-text" style="font-size: 16px; color: #ABABAB;">Металлический</p>
+                </div>
+                <div class="row" style="justify-content: space-between; align-items: center;">
+                  <div>
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                  </div>
+                  <p class="card-text" style="font-size: 16px; color: #ABABAB;">1 отзыв</p>
+                </div>
+                <div class="mt-4 mb-4">
+                  <hr width="270px" class="mt-4 mb-4"
+                    style="border: 1px solid #000; margin-left: -10px; margin-right: 40px;">
+                </div>
+                <div class="row mt-3" style="justify-content: space-between;">
+                  <div style="font-size: 20px; font-weight: 600;">5 500 грн.</div>
+                  <div>
+                    <img class="mr-2 img_card" width="20px" height="20px" src="Group2.png">
+                    <img class="img_card" width="20px" height="20px" src="Vector3.png">
+                  </div>
+                </div>
+                <div class="mt-4 w-100">
+                  <button type="button" class="card_buy_button w-100 btn btn-warning text-white">В корзину
+                    <img src="Иконка_корзины.png" alt="Иконка корзины">
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card" style="width: 20rem;">
+            <img width="374px" height="295px" src="01s (3).webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Складной нож Ахиллес</h5>
+              <div class="ml-3 mr-3">
+                <div class="row" style="justify-content: space-between;">
+                  <p class="card-text" style="font-size: 16px; color: #ABABAB;">40Х10С2М</p>
+                  <p class="card-text" style="font-size: 16px; color: #ABABAB;">Накладки орех/p>
+                </div>
+                <div class="row" style="justify-content: space-between; align-items: center;">
+                  <div>
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                  </div>
+                  <p class="card-text" style="font-size: 16px; color: #ABABAB;">42 отзывов</p>
+                </div>
+                <div class="mt-4 mb-4">
+                  <hr width="270px" class="mt-4 mb-4"
+                    style="border: 1px solid #000; margin-left: -10px; margin-right: 40px;">
+                </div>
+                <div class="row mt-3" style="justify-content: space-between;">
+                  <div style="font-size: 20px; font-weight: 600;">2 719 грн.</div>
+                  <div>
+                    <img class="mr-2 img_card" width="20px" height="20px" src="Group2.png">
+                    <img class="img_card" width="20px" height="20px" src="Vector3.png">
+                  </div>
+                </div>
+                <div class="mt-4 w-100">
+                  <button type="button" class="card_buy_button w-100 btn btn-warning text-white">В корзину
+                    <img src="Иконка_корзины.png" alt="Иконка корзины">
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card" style="width: 20rem;">
+            <img width="374px" height="295px" src="01s (4).webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Нож Лиса</h5>
+              <div class="ml-3 mr-3">
+                <div class="row" style="justify-content: space-between;">
+                  <p class="card-text" style="font-size: 16px; color: #ABABAB;">95х18</p>
+                  <p class="card-text" style="font-size: 16px; color: #ABABAB;">Орех, Алюминий</p>
+                </div>
+                <div class="row" style="justify-content: space-between; align-items: center;">
+                  <div>
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                  </div>
+                  <p class="card-text" style="font-size: 16px; color: #ABABAB;">12 отзывов</p>
+                </div>
+                <div class="mt-4 mb-4">
+                  <hr width="270px" class="mt-4 mb-4"
+                    style="border: 1px solid #000; margin-left: -10px; margin-right: 40px;">
+                </div>
+                <div class="row mt-3" style="justify-content: space-between;">
+                  <div style="font-size: 20px; font-weight: 600;">2 719 грн.</div>
+                  <div>
+                    <img class="mr-2 img_card" width="20px" height="20px" src="Group2.png">
+                    <img class="img_card" width="20px" height="20px" src="Vector3.png">
+                  </div>
+                </div>
+                <div class="mt-4 w-100">
+                  <button type="button" class="card_buy_button w-100 btn btn-warning text-white">В корзину
+                    <img src="Иконка_корзины.png" alt="Иконка корзины">
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-100 mt-5" style="text-align: center;">
+            <img src="Group 22.png">
+          </div>
+        </div>
+      </div>
+    </div> <!---->
+    </div>
+    <div class="new-items row">
+      <div class="column">
+        <div class="items-text1">Новинки</div>
+        <div class="items-text2 mt-4">Добро пожаловать на <br>
+          официальный сайт «ЗЛАТМАКС»! <br>
+          В нашем магазине представлен <br>
+          наиболее широкий выбор <br>
+          Златоустовских ножей от <br>
+          Златоустовских Оружейных <br>
+          Фабрик и компаний, мы <br>
+          являемся официальными <br>
+          поставщиками.</div>
+        <div class="mt-5">
+          <a href="" style="color: #E8AA31; font-size: 20px;">Больше новинок</a>
+          <img class="ml-2" src="Vector2.png">
+        </div>
+      </div>
+      <div>
+        <div class=" ml-5 row mb-5" style=" justify-content: space-between;">
+          <div class="card" style="width: 20rem;">
+            <img width="374px" height="295px" src="01s (7).webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Нож Селигер</h5>
+              <div class="ml-3 mr-3">
+                <div class="row" style="justify-content: space-between;">
+                  <p class="card-text" style="font-size: 16px; color: #ABABAB;">100Х13М</p>
+                  <p class="card-text" style="font-size: 16px; color: #ABABAB;">береза, Латунь</p>
+                </div>
+                <div class="row" style="justify-content: space-between; align-items: center;">
+                  <div>
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                  </div>
+                  <p class="card-text" style="font-size: 16px; color: #ABABAB;">41 отзыв</p>
+                </div>
+                <div class="mt-4 mb-4">
+                  <hr width="270px" class="mt-4 mb-4"
+                    style="border: 1px solid #000; margin-left: -10px; margin-right: 40px;">
+                </div>
+                <div class="row mt-3" style="justify-content: space-between;">
+                  <div style="font-size: 20px; font-weight: 600;">10 650 грн.</div>
+                  <div>
+                    <img class="mr-2 img_card" width="20px" height="20px" src="Group2.png">
+                    <img class="img_card" width="20px" height="20px" src="Vector3.png">
+                  </div>
+                </div>
+                <div class="mt-4 w-100">
+                  <button type="button" class="card_buy_button w-100 btn btn-warning text-white">В корзину
+                    <img src="Иконка_корзины.png" alt="Иконка корзины">
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card ml-3" style="width: 20rem;">
+            <img width="374px" height="295px" src="01s (3).webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Складной нож Ахиллес</h5>
+              <div class="ml-3 mr-3">
+                <div class="row" style="justify-content: space-between;">
+                  <p class="card-text" style="font-size: 16px; color: #ABABAB;">40Х10С2М</p>
+                  <p class="card-text" style="font-size: 16px; color: #ABABAB;">Накладки орех/p>
+                </div>
+                <div class="row" style="justify-content: space-between; align-items: center;">
+                  <div>
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                  </div>
+                  <p class="card-text" style="font-size: 16px; color: #ABABAB;">42 отзывов</p>
+                </div>
+                <div class="mt-4 mb-4">
+                  <hr width="270px" class="mt-4 mb-4"
+                    style="border: 1px solid #000; margin-left: -10px; margin-right: 40px;">
+                </div>
+                <div class="row mt-3" style="justify-content: space-between;">
+                  <div style="font-size: 20px; font-weight: 600;">2 719 грн.</div>
+                  <div>
+                    <img class="mr-2 img_card" width="20px" height="20px" src="Group2.png">
+                    <img class="img_card" width="20px" height="20px" src="Vector3.png">
+                  </div>
+                </div>
+                <div class="mt-4 w-100">
+                  <button type="button" class="card_buy_button w-100 btn btn-warning text-white">В корзину
+                    <img src="Иконка_корзины.png" alt="Иконка корзины">
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card ml-3" style="width: 20rem;">
+            <img width="374px" height="295px" src="01s (4).webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Нож Лиса</h5>
+              <div class="ml-3 mr-3">
+                <div class="row" style="justify-content: space-between;">
+                  <p class="card-text" style="font-size: 16px; color: #ABABAB;">95х18</p>
+                  <p class="card-text" style="font-size: 16px; color: #ABABAB;">Орех, Алюминий</p>
+                </div>
+                <div class="row" style="justify-content: space-between; align-items: center;">
+                  <div>
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                  </div>
+                  <p class="card-text" style="font-size: 16px; color: #ABABAB;">12 отзывов</p>
+                </div>
+                <div class="mt-4 mb-4">
+                  <hr width="270px" class="mt-4 mb-4"
+                    style="border: 1px solid #000; margin-left: -10px; margin-right: 40px;">
+                </div>
+                <div class="row mt-3" style="justify-content: space-between;">
+                  <div style="font-size: 20px; font-weight: 600;">2 719 грн.</div>
+                  <div>
+                    <img class="mr-2 img_card" width="20px" height="20px" src="Group2.png">
+                    <img class="img_card" width="20px" height="20px" src="Vector3.png">
+                  </div>
+                </div>
+                <div class="mt-4 w-100">
+                  <button type="button" class="card_buy_button w-100 btn btn-warning text-white">В корзину
+                    <img src="Иконка_корзины.png" alt="Иконка корзины">
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    ... <div class="column mt-5" style="margin-left: 5%; margin-right: 5%;">
+      <div class="row mt-5" style="text-align: center; justify-content: space-between; align-items: center;">
+        <div class="hiti" style="font-size: 30px; font-weight: 700;">Акции</div>
+        <div class="hiti2">
+          <a href="" style="color: black;">Все акции</a>
+          <img class="ml-3" src="Vector2.png">
+        </div>
+      </div>
+
+          <div class="mt-3 row" style="justify-content: space-between; align-items: center;">
+          <div class="mt-5 row card-knife" style=" justify-content: space-between;">
+            <div class="card " style="width: 20rem;">
+              <img width="374px" height="295px" src="01s (7).webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Нож Селигер</h5>
+                <div class="ml-3 mr-3">
+                  <div class="row" style="justify-content: space-between;">
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">100Х13М</p>
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">береза, Латунь</p>
+                  </div>
+                  <div class="row" style="justify-content: space-between; align-items: center;">
+                    <div>
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                    </div>
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">41 отзыв</p>
+                  </div>
+                  <div class="mt-4 mb-4">
+                    <hr width="270px" class="mt-4 mb-4"
+                      style="border: 1px solid #000; margin-left: -10px; margin-right: 40px;">
+                  </div>
+                  <div class="row mt-3" style="justify-content: space-between;">
+                    <div style="font-size: 20px; font-weight: 600;">10 650 грн.</div>
+                    <div>
+                      <img class="mr-2 img_card" width="20px" height="20px" src="Group2.png">
+                      <img class="img_card" width="20px" height="20px" src="Vector3.png">
+                    </div>
+                  </div>
+                  <div class="mt-4 w-100">
+                    <button type="button" class="card_buy_button w-100 btn btn-warning text-white">В корзину
+                      <img src="Иконка_корзины.png" alt="Иконка корзины">
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card" style="width: 20rem;">
+              <img width="374px" height="295px" src=" 01s (2).webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Нож Патриот</h5>
+                <div class="ml-3 mr-3">
+                  <div class="row" style="justify-content: space-between;">
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">100Х13М</p>
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">Металлический</p>
+                  </div>
+                  <div class="row" style="justify-content: space-between; align-items: center;">
+                    <div>
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                    </div>
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">1 отзыв</p>
+                  </div>
+                  <div class="mt-4 mb-4">
+                    <hr width="270px" class="mt-4 mb-4"
+                      style="border: 1px solid #000; margin-left: -10px; margin-right: 40px;">
+                  </div>
+                  <div class="row mt-3" style="justify-content: space-between;">
+                    <div style="font-size: 20px; font-weight: 600;">5 500 грн.</div>
+                    <div>
+                      <img class="mr-2 img_card" width="20px" height="20px" src="Group2.png">
+                      <img class="img_card" width="20px" height="20px" src="Vector3.png">
+                    </div>
+                  </div>
+                  <div class="mt-4 w-100">
+                    <button type="button" class="card_buy_button w-100 btn btn-warning text-white">В корзину
+                      <img src="Иконка_корзины.png" alt="Иконка корзины">
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card" style="width: 20rem;">
+              <img width="374px" height="295px" src="01s (3).webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Складной нож Ахиллес</h5>
+                <div class="ml-3 mr-3">
+                  <div class="row" style="justify-content: space-between;">
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">40Х10С2М</p>
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">Накладки орех/p>
+                  </div>
+                  <div class="row" style="justify-content: space-between; align-items: center;">
+                    <div>
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                    </div>
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">42 отзывов</p>
+                  </div>
+                  <div class="mt-4 mb-4">
+                    <hr width="270px" class="mt-4 mb-4"
+                      style="border: 1px solid #000; margin-left: -10px; margin-right: 40px;">
+                  </div>
+                  <div class="row mt-3" style="justify-content: space-between;">
+                    <div style="font-size: 20px; font-weight: 600;">2 719 грн.</div>
+                    <div>
+                      <img class="mr-2 img_card" width="20px" height="20px" src="Group2.png">
+                      <img class="img_card" width="20px" height="20px" src="Vector3.png">
+                    </div>
+                  </div>
+                  <div class="mt-4 w-100">
+                    <button type="button" class="card_buy_button w-100 btn btn-warning text-white">В корзину
+                      <img src="Иконка_корзины.png" alt="Иконка корзины">
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card" style="width: 20rem;">
+              <img width="374px" height="295px" src="01s (4).webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Нож Лиса</h5>
+                <div class="ml-3 mr-3">
+                  <div class="row" style="justify-content: space-between;">
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">95х18</p>
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">Орех, Алюминий</p>
+                  </div>
+                  <div class="row" style="justify-content: space-between; align-items: center;">
+                    <div>
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                      <img src="Star 1.png" width="22px">
+                    </div>
+                    <p class="card-text" style="font-size: 16px; color: #ABABAB;">12 отзывов</p>
+                  </div>
+                  <div class="mt-4 mb-4">
+                    <hr width="270px" class="mt-4 mb-4"
+                      style="border: 1px solid #000; margin-left: -10px; margin-right: 40px;">
+                  </div>
+                  <div class="row mt-3" style="justify-content: space-between;">
+                    <div style="font-size: 20px; font-weight: 600;">2 719 грн.</div>
+                    <div>
+                      <img class="mr-2 img_card" width="20px" height="20px" src="Group2.png">
+                      <img class="img_card" width="20px" height="20px" src="Vector3.png">
+                    </div>
+                  </div>
+                  <div class="mt-4 w-100">
+                    <button type="button" class="card_buy_button w-100 btn btn-warning text-white">В корзину
+                      <img src="Иконка_корзины.png" alt="Иконка корзины">
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-100 mt-5" style="text-align: center;">
+              <img src="Group 22.png">
+            </div>
+          </div>
+        </div>
+      ...
+      <div class="mt-3 row" style="justify-content: space-between; align-items: center;">
+        <div class="mt-5 row card-knife" style=" justify-content: space-between;">
+          <div class="card " style="width: 20rem;">
+            <img width="374px" height="295px" src="01s (7).webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Нож Селигер</h5>
+              <div class="ml-3 mr-3">
+                <div class="row" style="justify-content: space-between;">
+                  <p class="card-text" style="font-size: 16px; color: #ABABAB;">100Х13М</p>
+                  <p class="card-text" style="font-size: 16px; color: #ABABAB;">береза, Латунь</p>
+                </div>
+                <div class="row" style="justify-content: space-between; align-items: center;">
+                  <div>
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                  </div>
+                  <p class="card-text" style="font-size: 16px; color: #ABABAB;">41 отзыв</p>
+                </div>
+                <div class="mt-4 mb-4">
+                  <hr width="270px" class="mt-4 mb-4"
+                    style="border: 1px solid #000; margin-left: -10px; margin-right: 40px;">
+                </div>
+                <div class="row mt-3" style="justify-content: space-between;">
+                  <div style="font-size: 20px; font-weight: 600;">10 650 грн.</div>
+                  <div>
+                    <img class="mr-2 img_card" width="20px" height="20px" src="Group2.png">
+                    <img class="img_card" width="20px" height="20px" src="Vector3.png">
+                  </div>
+                </div>
+                <div class="mt-4 w-100">
+                  <button type="button" class="card_buy_button w-100 btn btn-warning text-white">В корзину
+                    <img src="Иконка_корзины.png" alt="Иконка корзины">
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card" style="width: 20rem;">
+            <img width="374px" height="295px" src=" 01s (2).webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Нож Патриот</h5>
+              <div class="ml-3 mr-3">
+                <div class="row" style="justify-content: space-between;">
+                  <p class="card-text" style="font-size: 16px; color: #ABABAB;">100Х13М</p>
+                  <p class="card-text" style="font-size: 16px; color: #ABABAB;">Металлический</p>
+                </div>
+                <div class="row" style="justify-content: space-between; align-items: center;">
+                  <div>
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                  </div>
+                  <p class="card-text" style="font-size: 16px; color: #ABABAB;">1 отзыв</p>
+                </div>
+                <div class="mt-4 mb-4">
+                  <hr width="270px" class="mt-4 mb-4"
+                    style="border: 1px solid #000; margin-left: -10px; margin-right: 40px;">
+                </div>
+                <div class="row mt-3" style="justify-content: space-between;">
+                  <div style="font-size: 20px; font-weight: 600;">5 500 грн.</div>
+                  <div>
+                    <img class="mr-2 img_card" width="20px" height="20px" src="Group2.png">
+                    <img class="img_card" width="20px" height="20px" src="Vector3.png">
+                  </div>
+                </div>
+                <div class="mt-4 w-100">
+                  <button type="button" class="card_buy_button w-100 btn btn-warning text-white">В корзину
+                    <img src="Иконка_корзины.png" alt="Иконка корзины">
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card" style="width: 20rem;">
+            <img width="374px" height="295px" src="01s (3).webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Складной нож Ахиллес</h5>
+              <div class="ml-3 mr-3">
+                <div class="row" style="justify-content: space-between;">
+                  <p class="card-text" style="font-size: 16px; color: #ABABAB;">40Х10С2М</p>
+                  <p class="card-text" style="font-size: 16px; color: #ABABAB;">Накладки орех/p>
+                </div>
+                <div class="row" style="justify-content: space-between; align-items: center;">
+                  <div>
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                  </div>
+                  <p class="card-text" style="font-size: 16px; color: #ABABAB;">42 отзывов</p>
+                </div>
+                <div class="mt-4 mb-4">
+                  <hr width="270px" class="mt-4 mb-4"
+                    style="border: 1px solid #000; margin-left: -10px; margin-right: 40px;">
+                </div>
+                <div class="row mt-3" style="justify-content: space-between;">
+                  <div style="font-size: 20px; font-weight: 600;">2 719 грн.</div>
+                  <div>
+                    <img class="mr-2 img_card" width="20px" height="20px" src="Group2.png">
+                    <img class="img_card" width="20px" height="20px" src="Vector3.png">
+                  </div>
+                </div>
+                <div class="mt-4 w-100">
+                  <button type="button" class="card_buy_button w-100 btn btn-warning text-white">В корзину
+                    <img src="Иконка_корзины.png" alt="Иконка корзины">
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card" style="width: 20rem;">
+            <img width="374px" height="295px" src="01s (4).webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Нож Лиса</h5>
+              <div class="ml-3 mr-3">
+                <div class="row" style="justify-content: space-between;">
+                  <p class="card-text" style="font-size: 16px; color: #ABABAB;">95х18</p>
+                  <p class="card-text" style="font-size: 16px; color: #ABABAB;">Орех, Алюминий</p>
+                </div>
+                <div class="row" style="justify-content: space-between; align-items: center;">
+                  <div>
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                    <img src="Star 1.png" width="22px">
+                  </div>
+                  <p class="card-text" style="font-size: 16px; color: #ABABAB;">12 отзывов</p>
+                </div>
+                <div class="mt-4 mb-4">
+                  <hr width="270px" class="mt-4 mb-4"
+                    style="border: 1px solid #000; margin-left: -10px; margin-right: 40px;">
+                </div>
+                <div class="row mt-3" style="justify-content: space-between;">
+                  <div style="font-size: 20px; font-weight: 600;">2 719 грн.</div>
+                  <div>
+                    <img class="mr-2 img_card" width="20px" height="20px" src="Group2.png">
+                    <img class="img_card" width="20px" height="20px" src="Vector3.png">
+                  </div>
+                </div>
+                <div class="mt-4 w-100">
+                  <button type="button" class="card_buy_button w-100 btn btn-warning text-white">В корзину
+                    <img src="Иконка_корзины.png" alt="Иконка корзины">
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-100 mt-5" style="text-align: center;">
+            <img src="Group 22.png">
+          </div>
+        </div>
+      </div>
+     </div> <!---->
+   
+    <footer>
+      <div class="first-footer">
+        <div class="p-5">
+          <h3 style="text-align: center; color: #E8AA31;">Златоустовские ножи интернет-магазин "ЗЛАТМАКС"</h3>
+          <p>
+            Наш интернет-магазин "ЗЛАТМАКС" предлагает Вам ножи очень высокого качества из города оружейников -
+            Златоуста. Златоустовские ножи известны и популярны среди потребителей как на российским рынке, так и за
+            рубежом: ножи охотничьи, хозяйственные, туристические, рыбацкие, складные и метательные. Нож Златоуста - это
+            идеальный друг и товарищ в повседневной жизни и в экстремальных ситуациях. На многую продукцию
+            распространяется гарантия до 10 лет - это один из главных показателей качества. Для Вас на нашем сайте
+            "zlatmax" предложен огромный ассортимент Златоустовских ножей. Наши менеджеры помогут определиться и
+            подобрать самый лучший Златоустовский нож, ориентируясь на Ваши пожелания.
+          </p>
+        </div>
+      </div>
+
+      <div style="margin-left: 7%; margin-right: 7%;">
+        <div class="row footer-block1" style="color: white; justify-content: space-between;">
+          <div class="footer-inform">
+            <p class="title">ИНФОРМАЦИЯ</p>
+            <a href="" style="color: white;  text-decoration: none;">
+              <p class="footer-link">
+                Златоустовские ножи <br>
+                в Киеве и Киевской <br>
+                области <br>
+              </p>
+            </a>
+            <a href="" style="color: white;  text-decoration: none;">
+              <p class="footer-link">
+                Ножевые стали
+              </p>
+            </a>
+            <a href="" style="color: white;  text-decoration: none;">
+              <p class="footer-link">
+                О нас
+              </p>
+            </a>
+            <a href="" style="color: white;  text-decoration: none;">
+              <p class="footer-link">
+                Условия оплаты и доставки
+              </p>
+            </a>
+            <a href="" style="color: white;  text-decoration: none;">
+              <p class="footer-link">
+                Политика конфиденциальности
+              </p>
+            </a>
+          </div>
+          <div class="footer-inform">
+            <p class="title">СЛУЖБА ПОДДЕРЖКИ</p>
+            <a href="" style="color: white;  text-decoration: none;">
+              <p class="footer-link">
+                Контактная информация
+              </p>
+            </a>
+            <a href="" style="color: white;  text-decoration: none;">
+              <p class="footer-link">
+                Возврат товара
+              </p>
+            </a>
+            <a href="" style="color: white;  text-decoration: none;">
+              <p class="footer-link">
+                Карта сайта
+              </p>
+            </a>
+          </div>
+          <div class="footer-inform">
+            <p class="title">ДОПОЛНИТЕЛЬНО</p>
+            <a href="" style="color: white;  text-decoration: none;">
+              <p class="footer-link">
+                Подарочные сертификаты
+              </p>
+            </a>
+            <a href="" style="color: white;  text-decoration: none;">
+              <p class="footer-link">
+                Партнеры
+              </p>
+            </a>
+            <a href="" style="color: white;  text-decoration: none;">
+              <p class="footer-link">
+                Товары со скидкой
+              </p>
+            </a>
+          </div>
+          <div class="footer-inform">
+            <p class="title">ЛИЧНЫЙ КАБИНЕТ</p>
+            <a href="" style="color: white;  text-decoration: none;">
+              <p class="footer-link">
+                Личный кабинет
+              </p>
+            </a>
+            <a href="" style="color: white;  text-decoration: none;">
+              <p class="footer-link">
+                История заказов
+              </p>
+            </a>
+            <a href="" style="color: white;  text-decoration: none;">
+              <p class="footer-link">
+                Мои закладки
+              </p>
+            </a>
+            <a href="" style="color: white;  text-decoration: none;">
+              <p class="footer-link">
+                Рассылка новостей
+              </p>
+            </a>
+          </div>
+        </div>
+        <hr style="background-color: white; margin-left: -1%;">
+        <div class="row pb-3" style="color: white; justify-content: space-between;">
+          <div>
+            <p class="title">КОНТАКТЫ</p>
+            <div>
+              <img src="imj/footer-vector(1).png">
+              <span class="ml-2">8 (800) 777-49-67</span>
+            </div>
+            <div class="mt-3">
+              <img src="imj/Group 78.png">
+              <span class="ml-2">Пн-Пт
+                7:00 - 16:00 (МСК)</span>
+            </div>
+            <div class="mt-3">
+              <img src="imj/Group 78.png">
+              <span class="ml-2">Пн-Пт
+                7:00 - 16:00 (МСК)</span>
+            </div>
+            <div class="mt-3">
+              <img src="imj/Иконка_Локации_footer.png">
+              <span class="ml-2">Златоуст,
+                ул. Шоссейная,
+                д. 1, офис «6Б»</span>
+            </div>
+            <div class="mt-3">
+              <img src="imj/Group 79_footer.png">
+              <span class="ml-2">info@zlatmax.ua</span>
+            </div>
+            <div class="mt-4">
+              <img src="imj/Соц сети.png" width="180px">
+            </div>
+          </div>
+          <div>
+            <p class="title">ПОЛЕЗНЫЕ ССЫЛКИ</p>
+            <a href="" style="color: white;  text-decoration: none;">
+              <p class="footer-link">
+                Способы оплаты и доставки
+              </p>
+            </a>
+          </div>
+          <div>
+            <p class="title">НАША ГАРАНТИЯ</p>
+            <p>
+              Недовольны своей покупкой? <br>
+              Вы можете вернуть ее в течении <br>
+              30 дней с даты получения, <br>
+              согласно <span style="color: #E8AA31;">нашим правилам</span> <br>
+            </p>
+          </div>
+          <div>
+            <p class="title"> НОВОСТНАЯ РАССЫЛКА</p>
+            <p>
+              Подпишитесь прямо сейчас!
+            </p>
+            <form>
+              <input type="email" maxlength="30" placeholder="example@email.com" class="input-footer">
+              <div class="form-group mt-3">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Я прочитал Условия соглашения и <br>
+                    согласен с условиями
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      </div>
+    </footer>
+
+
+
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
