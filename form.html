@@ -1,11 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 </head>
+<style>
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        border: 2px solid rgb(168, 165, 165);
+        border-radius: 15px;
+        padding: 2% 4% 2%;
+        margin-top: 3em;
+        margin-bottom: 1em;
+        width: 500px;
+
+    }
+
+    h2 {
+        color: orange;
+        font-style: italic;
+        text-align: center;
+    }
+
+    #inp {
+        border: 3px solid orange;
+        margin-top: 5%;
+        border-radius: 8px;
+        width: 100%;
+    }
+
+    label {
+        color: orange;
+    }
+
+    .inform {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inform div {
+        margin-top: 6%;
+        margin-bottom: 0%;
+    }
+
+    span {
+        color: white;
+    }
+
+    @media (max-width: 1125px) {
+        .container {
+            width: 400px;
+        }
+    }
+
+    @media (max-width: 478px) {
+        .container {
+            width: 350px;
+           
+        }
+       
+    }
+
+    @media (max-width: 370px) {
+        .container {
+            width: 285px;
+           
+        }
+       
+    }
+
+    @media (max-width: 300px) {
+        .container {
+            width: 220px;
+           
+        }
+       
+    }
+
+
+  
+</style>
+
 <body>
-    
+    <div class="container">
+        <div>
+            <h2>Регистрация</h2>
+        </div>
+        <div class="inform">
+            <form method="get">
+                <div>
+                    <label for="name" style="color: black;">Имя:</label> <br>
+                    <input type="text" name="name" id="inp" maxlength="10" />
+                </div>
+                <div>
+                    <label for="email" style="color: black;">Email:</label> <br>
+                    <input type="email" name="email" id="inp" maxlength="20" />
+                </div>
+                <div>
+                    <label for="password" style="color: black;">Пароль:</label> <br>
+                    <input type="password" name="password" id="inp" maxlength="20" />
+                </div>
+                <div>
+                    <label for="email" style="color: black;">Дата роождения:</label> <br>
+                    <input type="date" id="inp" />
+                </div>
+                <p class="mt-3" style="margin-bottom: 0%;">Страна:</p>
+                <select name="City" size="1" id="inp">
+                    <optgroup label="Страна">
+                        <option value='od'>Украина</option>
+                        <option value='kv' selected>США</option>
+                        <option value='lv'>Япония</option>
+                        <option value='dp'>Франция</option>
+                    </optgroup>
+                </select>
+
+                <div class="text-center">
+                    <input type="submit" class="btn btn-warning bott" value="Зарегистрироваться" />
+                </div>
+        </div>
+        </form>
+    </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
